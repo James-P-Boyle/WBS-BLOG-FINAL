@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(315deg, #000000 0%, #d8b1d6 100%);
+  color: white;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.navbar-brand:hover {
+  color: #1abc9c !important;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: rgba(41, 43, 44, 0.4);
+  max-width: 90%;
+}
+
+.container h1 {
+  padding-top: 20px;
+}
+
+.container p {
+  padding-bottom: 25px;
+  margin-top: 20px;
+}
+
+p a {
+  color: #1abc9c;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  /* background-color: rgb(34, 31, 31); */
+}
+
+footer p {
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+}
+/* Thank you Page */
+
+.center-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.center-flex h1 {
+  font-size: 3rem;
+}
+
+.center-flex p {
+  font-size: 2rem;
+}
+
+.homeButton {
+  background: #1abc9c;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 16px 76px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.homeButton:hover {
+  background: #99ffeb;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.homeButton:active {
+  position: relative;
+  top: 1px;
+}
